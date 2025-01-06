@@ -1,0 +1,26 @@
+{
+    "name": "perigiweb/installer",
+    "type": "composer-plugin",
+    "autoload": {
+        "psr-4": {
+            "Perigi\\Installer\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Perigi Web",
+            "homepage": "https://perigi.my.id"
+        }
+    ],
+    "extra": {
+        "class": "Perigi\\Installer\\Plugin",
+        "plugin-modifies-install-path": true
+    },
+    "minimum-stability": "dev",
+    "require": {
+        "composer-plugin-api": "^2.2"
+    },
+    "require-dev": {
+        "composer/composer": "^2.2"
+    }
+}
