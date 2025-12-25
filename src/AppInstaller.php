@@ -10,6 +10,7 @@ class AppInstaller extends BaseInstaller
     'theme-frontend' => 'app/themes/frontend/{$name}',
     'theme-admin' => 'app/themes/admin/{$name}',
     'theme' => 'app/themes/{$name}',
+    'app' => 'app/{$name}'
   ];
 
   public function inflectPackageVars(array $vars): array
